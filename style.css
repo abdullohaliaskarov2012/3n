@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.header{
+    width: 1440px;
+    height: 870px;
+    background-color: #F3D7B7;
+    margin: 0 auto;
+}
+.header-nav {
+    width: 100%;
+    border: 2px solid black;
+}
+.header-nav ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: end;
+}
+
+.header-text{
+    width: 447px;
+    height: 150px;
+    font-size: 64px;
+    font-weight: 700;
+    margin-top: 130px;
+    margin-left: 50px;
+}
+.header-text2{
+    width: 464px;
+    height: 72px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 47px;
+}
+
+.header-text button{
+    width: 193px;
+    height: 51px;
+    background-color: #0A775F;
+    border-radius: 100px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16px 24px 16px 24px;
+}   
+.header-text button:hover{
+    font-weight: 500;
+    color: #7dffe3;
+    transition: 3s;
+    font-size: 15px;
+    text-shadow: 2px 2px 0px;
+}
+.header-text img{
+    transform: translate(680px, -220px);
+}
+.img2{
+    transform: translate(-90px,-820px);
+}
+.section{
+    width: 1444px;
+    height: 1798px;
+    background-color: white;   
+    margin: 0 auto; 
+}
+.section-food{
+    padding:  108px 0px;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+}
+.section-food__meals{
+    width: 1117px;
+    height: 1500px;
+    margin: 0 auto;
+}
+.p2{
+    width: 454px;
+    height: 68px;
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 10px;
+    margin: 0 auto;
+}
+.p{
+    width: 164px;
+    height: 56px;   
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 500;    
+    margin: 0 auto;
+    margin-top: 163px;
+}
+
+.card{
+    display: flex;
+}
+.two{
+    margin-left:200px;
+}
+.footer{
+    width: 1440px;
+    height: 160px;
+    background-color: #F3D7B7;
+    margin: 0 auto;
+}
+.footer ul{
+    display: flex;
+    gap: 40px;
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+    font-weight: 700;
+
+}
+.footer-img__text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 71px;
+}
